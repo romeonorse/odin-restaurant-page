@@ -6,10 +6,7 @@ function pageLoad() {
   const title = document.createElement('h1');
   title.innerText = 'Lone Soul Cafe';
   content.appendChild(title);
-  // Menu title
-  const menuText = document.createElement('h2');
-  menuText.innerText = 'Today we are serwing:';
-  content.appendChild(menuText);
+  
   // Menu container
   const menuContainer = div;
   menuContainer.classList.add('menu-container');
@@ -22,6 +19,7 @@ function pageLoad() {
   const drinks = document.createElement('div');
   drinks.innerText = 'Drinks';
   drinks.classList.add('tab');
+  drinks.classList.add('tab-active');
   menuTab.appendChild(drinks);
   const snacks = document.createElement('div');
   snacks.innerText = 'Snacks';
@@ -37,5 +35,15 @@ function pageLoad() {
   const menuItems = document.createElement('div');
   menuItems.classList.add('menu-items');
   menuContainer.appendChild(menuItems);
+
+  // Items
+
+  // Menu title
+  const menuText = document.createElement('div');
+  menuText.classList.add('menu-text');
+  menuText.innerHTML = `<span>Today we are serving</span><span class="material-symbols-outlined">
+  arrow_upward
+  </span>`;
+  content.appendChild(menuText);
 }
 export default pageLoad;
