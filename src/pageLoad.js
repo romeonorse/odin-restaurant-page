@@ -28,7 +28,7 @@ function pageLoad() {
   about.innerText = 'About';
   about.classList.add('tab');
   about.classList.add('about');
-  about.classList.add('tab-active');
+  // about.classList.add('tab-active');
   const menu = document.createElement('div');
   menu.innerText = 'Menu';
   menu.classList.add('tab');
@@ -44,7 +44,7 @@ function pageLoad() {
   // // Menu Items
   // const menuItems = document.createElement('div');
   // menuItems.classList.add('menu-items');
-  // menuContainer.appendChild(menuItems);
+  // content.appendChild(menuItems);
 
   // // Items
   // const itemOne = document.createElement('div');
