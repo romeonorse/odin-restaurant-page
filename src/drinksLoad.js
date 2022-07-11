@@ -8,7 +8,7 @@ function drinksLoad() {
   const itemOne = document.createElement('div');
   itemOne.classList.add('item');
   itemOne.innerHTML = `
-    <img src="../src/img/drinks/beer.jpg">
+    <img src="./drinks/beer.jpg">
     <h3>Beer</h3>
     <h4>$5</h4>
   `
@@ -17,7 +17,7 @@ function drinksLoad() {
   const itemTwo = document.createElement('div');
   itemTwo.classList.add('item');
   itemTwo.innerHTML = `
-    <img src="../src/img/drinks/snacks.jpg">
+    <img src="./drinks/snacks.jpg">
     <h3>Snacks</h3>
     <h4>$10</h4>
   `
@@ -25,7 +25,7 @@ function drinksLoad() {
   const itemThree = document.createElement('div');
   itemThree.classList.add('item');
   itemThree.innerHTML = `
-    <img src="../src/img/drinks/games.jpg">
+    <img src="./drinks/games.jpg">
     <h3>Fun</h3>
     <h4>Priceless</h4>
   `
